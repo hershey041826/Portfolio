@@ -9,9 +9,9 @@ import GoogleTranslate from './GoogleTranslate';
       JSON.parse(localStorage.getItem('darkMode')) || false
       );
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+  // const toggleDarkMode = () => {
+  //   setDarkMode(!darkMode);
+  // };
      
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));
