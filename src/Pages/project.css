@@ -1,0 +1,43 @@
+main {
+    height: 100%;
+  }
+  html,
+  .mySwiper {
+    position: relative;
+    height: 100%;
+    
+  }
+  
+  .swiper {
+    width: 80%;
+    height: 100%;
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 10vh;
+    height: 60vh;
+    margin-top: 5rem;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s ease;
+  }
+ 
+    
+  .swiper-slide img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
