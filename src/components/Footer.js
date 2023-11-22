@@ -22,7 +22,7 @@ export const Footer = () => {
     <footer className="p-4 bg-purple-700 shadow md:flex md:items-center border-t-2 border-whitemd:justify-center dark:bg-gray-800 bo">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center">
         <span className="text-sm text-slate-950 sm:text-center dark:text-purple-700">
-          <ul className="flex items-center mt-3 text-sm font-medium text-slate-950 dark:text-purple-700 sm:mt-0">
+          <ul className=" text-sm font-medium text-slate-950 dark:text-purple-700 sm:mt-0">
             <FooterSection title="Connect to Me">
               <div className="social text-2xl space-x-3 font-bold">
                 <SocialLink icon="bi-facebook" to="https://www.facebook.com/eshey0418/" />
